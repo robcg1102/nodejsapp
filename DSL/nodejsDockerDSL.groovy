@@ -1,5 +1,5 @@
 job('Aplicacion Node.js Docker DSL') {
-    description('Aplicación Node JS Docker DSL para el curso de Jenkins')
+    description('Aplicación Node JS Docker DSL')
     scm {
         git('https://github.com/robcg1102/nodejsapp.git', 'master') { node ->
             node / gitConfigName('robcg1102')
